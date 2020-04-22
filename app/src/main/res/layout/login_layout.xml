@@ -9,7 +9,7 @@
     android:paddingLeft="15dp"
     android:paddingTop="25dp"
     android:paddingRight="15dp"
-    tools:context="fau.amoracen.speechmap.TextToSpeechFragment">
+    tools:context="fau.amoracen.speechmap.LoginFragment">
 
     <TextView
         android:id="@+id/textView"

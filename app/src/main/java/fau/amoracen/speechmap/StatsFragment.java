@@ -19,14 +19,14 @@ import androidx.fragment.app.Fragment;
 import java.util.ArrayList;
 import java.util.Locale;
 
-public class SpeechToTextFragment extends Fragment {
+public class StatsFragment extends Fragment {
     private final int REQ_CODE = 100;
     private TextView inputTextView;
 
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        return inflater.inflate(R.layout.speech_to_text_layout, container, false);
+        return inflater.inflate(R.layout.stats_layout, container, false);
     }
 
     @Override

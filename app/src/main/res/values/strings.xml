@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">SpeechMap</string>
-    <string name="tab_text_to_speech">Text To Speech</string>
-    <string name="tab_speech_to_text">Speech To Text</string>
+    <string name="tab_text_to_speech">Login</string>
+    <string name="tab_speech_to_text">Stats</string>
     <string name="tab_gps">GPS Location</string>
     <string name="tab_map">Google Map</string>
     <string name="text_to_speech">Text to Speech</string>

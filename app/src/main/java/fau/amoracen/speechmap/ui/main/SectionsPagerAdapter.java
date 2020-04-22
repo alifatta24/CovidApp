@@ -12,8 +12,8 @@ import androidx.fragment.app.FragmentPagerAdapter;
 import fau.amoracen.speechmap.GPSFragment;
 import fau.amoracen.speechmap.GoogleMapFragment;
 import fau.amoracen.speechmap.R;
-import fau.amoracen.speechmap.SpeechToTextFragment;
-import fau.amoracen.speechmap.TextToSpeechFragment;
+import fau.amoracen.speechmap.StatsFragment;
+import fau.amoracen.speechmap.LoginFragment;
 
 /**
  * A [FragmentPagerAdapter] that returns a fragment corresponding to
@@ -42,10 +42,10 @@ public class SectionsPagerAdapter extends FragmentPagerAdapter {
         Fragment fragment = null;
         switch (position) {
             case 0:
-                fragment = new TextToSpeechFragment();
+                fragment = new LoginFragment();
                 break;
             case 1:
-                fragment = new SpeechToTextFragment();
+                fragment = new StatsFragment();
                 break;
             case 2:
                 fragment = new GPSFragment();
