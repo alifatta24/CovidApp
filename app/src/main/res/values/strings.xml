@@ -4,9 +4,9 @@
     <string name="tab_speech_to_text">Stats</string>
     <string name="tab_gps">GPS Location</string>
     <string name="tab_map">Google Map</string>
-    <string name="text_to_speech">Text to Speech</string>
+    <string name="text_to_speech"></string>
     <string name="enter_text">Enter Text</string>
-    <string name="myNameZNumber">Name ZNumber</string>
+    <string name="myNameZNumber">Ali Fatta Z23419429</string>
     <string name="speech_to_text">Speech To Text</string>
     <string name="result">Result</string>
     <string name="microphone_icon">Microphone Icon</string>
@@ -14,4 +14,8 @@
     <string name="get_location">Get Location</string>
     <string name="google_map">Google Map</string>
     <string name="location">Location</string>
+
+    <string name="facebook_app_id">3260321547525622</string>
+    <string name="fb_login_protocol_scheme">fb3260321547525622</string>
+
 </resources>
