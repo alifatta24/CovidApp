@@ -9,7 +9,7 @@ import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentPagerAdapter;
 
-import fau.amoracen.speechmap.GPSFragment;
+import fau.amoracen.speechmap.ChartFragment;
 import fau.amoracen.speechmap.GoogleMapFragment;
 import fau.amoracen.speechmap.R;
 import fau.amoracen.speechmap.StatsFragment;
@@ -48,7 +48,7 @@ public class SectionsPagerAdapter extends FragmentPagerAdapter {
                 fragment = new StatsFragment();
                 break;
             case 2:
-                fragment = new GPSFragment();
+                fragment = new ChartFragment();
                 break;
             case 3:
                 fragment = new GoogleMapFragment();

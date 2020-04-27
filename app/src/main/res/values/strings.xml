@@ -2,8 +2,8 @@
     <string name="app_name">SpeechMap</string>
     <string name="tab_text_to_speech">Login</string>
     <string name="tab_speech_to_text">Stats</string>
-    <string name="tab_gps">GPS Location</string>
-    <string name="tab_map">Google Map</string>
+    <string name="tab_gps">Graph</string>
+    <string name="tab_map">News</string>
     <string name="text_to_speech"></string>
     <string name="enter_text">Enter Text</string>
     <string name="myNameZNumber">Ali Fatta Z23419429</string>
