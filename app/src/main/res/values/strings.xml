@@ -3,7 +3,7 @@
     <string name="tab_text_to_speech">Login</string>
     <string name="tab_speech_to_text">Stats</string>
     <string name="tab_gps">Graph</string>
-    <string name="tab_map">News</string>
+    <string name="tab_map">News/History</string>
     <string name="text_to_speech"></string>
     <string name="enter_text">Enter Text</string>
     <string name="myNameZNumber">Ali Fatta Z23419429</string>
@@ -14,7 +14,11 @@
     <string name="get_location">Get Location</string>
     <string name="google_map">Google Map</string>
     <string name="location">Location</string>
-
+    <string name="newnew">alsdjka;lsjkdf;jasdfjas;ljd
+    askdjhlkasjdhadsjkh
+    asdkjfhaslkfhsaldkj
+    aksjdhlkasfh
+    aslkdjhlaskfda</string>
     <string name="facebook_app_id">3260321547525622</string>
     <string name="fb_login_protocol_scheme">fb3260321547525622</string>
 
