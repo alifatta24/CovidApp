@@ -28,7 +28,7 @@ public class ChartFragment extends Fragment {
 
     WebView webView;
     String webHtml1 = "Chartjs-Cases.html";
-    String Country = "USA";
+    String Country = "World";
     ArrayList<String> datadate = new ArrayList<String>();
     ArrayList<String> datanum = new ArrayList<String>();
 
@@ -82,7 +82,7 @@ public class ChartFragment extends Fragment {
         String CountryQuery;
 
         if (Country.isEmpty()) {
-            CountryQuery = "USA";
+            CountryQuery = "World";
         } else {
             CountryQuery = Country;
         }
