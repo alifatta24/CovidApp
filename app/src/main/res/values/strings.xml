@@ -3,7 +3,7 @@
     <string name="tab_text_to_speech">Login</string>
     <string name="tab_speech_to_text">Stats</string>
     <string name="tab_gps">Graph</string>
-    <string name="tab_map">News/History</string>
+    <string name="tab_map">History/News</string>
     <string name="text_to_speech"></string>
     <string name="enter_text">Enter Text</string>
     <string name="myNameZNumber">Ali Fatta Z23419429</string>
@@ -14,11 +14,31 @@
     <string name="get_location">Get Location</string>
     <string name="google_map">Google Map</string>
     <string name="location">Location</string>
-    <string name="newnew">alsdjka;lsjkdf;jasdfjas;ljd
-    askdjhlkasjdhadsjkh
-    asdkjfhaslkfhsaldkj
-    aksjdhlkasfh
-    aslkdjhlaskfda</string>
+
+
+
+    <string name="newnew">  Although we do not know officially how to Coronavirus began we do know that
+    the first case was in Wuhan China in later December. The first death of this virus was on January 11th.
+    Less than a month later the virus was spreading worldwide. With confirmed cases in countries such as the United
+    States, Japan and more, the World Health Organization declared this virus a Pandemic. Countries are now limiting both
+    travel and gatherings to prevent the spread of this virus. \n
+
+    </string>
+
+    <string name="newhelp"> \n Some of the signs of Covid 19 include, Fever, Cough, difficulty breathing,
+        chills, sore throat, and muscle pain. \n Since there is not a cure for this virus yet one should
+    be very cautious when interacting with others. Some ways to prevent the spread of this virus is to
+         keep a safe distance from others, keep your hands clean, cover your face and most importantly try to
+        stay home as much as possible. \n
+        Provided below are links to the to websites of the WHO and the CDC.
+    </string>
+
+    <string
+        name="messageWithLink"><a href="https://www.who.int/health-topics/coronavirus#tab=tab_1">World Health Organization</a></string>
+
+    <string
+        name="messageWithLink2"><a href="https://www.cdc.gov/coronavirus/2019-ncov/symptoms-testing/symptoms.html">Centers for Disease Control and Prevention</a></string>
+
     <string name="facebook_app_id">3260321547525622</string>
     <string name="fb_login_protocol_scheme">fb3260321547525622</string>
 

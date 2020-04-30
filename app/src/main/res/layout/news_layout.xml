@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -12,6 +13,13 @@
     android:paddingBottom="15dp"
     tools:context="fau.amoracen.speechmap.GoogleMapFragment">
 
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
     <TextView
         android:id="@+id/textView"
         android:layout_width="369dp"
@@ -21,7 +29,7 @@
 
         android:layout_marginTop="0dp"
 
-        android:text="Confirmed Cases"
+        android:text="Start of Covid-19"
         android:textAlignment="center"
         android:textColor="@android:color/background_light"
         android:textSize="35sp"
@@ -33,20 +41,54 @@
         android:layout_height="wrap_content"
         android:text="@string/newnew" />
 
-    <TextView
-        android:id="@+id/textView5"
-        android:layout_width="369dp"
-        android:layout_height="75dp"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentBottom="true"
-
-        android:layout_marginTop="0dp"
-
-        android:text="Confirmed Cases"
-        android:textAlignment="center"
-        android:textColor="@android:color/background_light"
-        android:textSize="35sp"
-        android:textStyle="bold" />
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="371dp"
+            android:layout_height="308dp"
+            android:src="@drawable/china" />
 
 
-</LinearLayout>
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="369dp"
+            android:layout_height="75dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="true"
+
+            android:layout_marginTop="0dp"
+
+            android:text="Signs and Prevention"
+            android:textAlignment="center"
+            android:textColor="@android:color/background_light"
+            android:textSize="35sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/newhelp" />
+
+        <TextView
+            android:id="@+id/textViewLink"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:text="@string/messageWithLink" />
+        <TextView
+            android:id="@+id/textViewLink2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:text="@string/messageWithLink2" />
+
+
+    </LinearLayout>
+
+</ScrollView>
