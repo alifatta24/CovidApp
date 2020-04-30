@@ -15,11 +15,11 @@ import androidx.fragment.app.Fragment;
 
 import java.util.ArrayList;
 
-public class GoogleMapFragment extends Fragment  {
+public class NewsFragment extends Fragment  {
 
     TextView textView;
 
-    public GoogleMapFragment() {
+    public NewsFragment() {
 
     }
 
@@ -27,6 +27,7 @@ public class GoogleMapFragment extends Fragment  {
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         View v= inflater.inflate(R.layout.news_layout, container, false);
 
+        //links to each url
         textView = v.findViewById(R.id.textViewLink);
         textView.setMovementMethod(LinkMovementMethod.getInstance());
 

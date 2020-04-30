@@ -43,8 +43,6 @@ public class CountryAdapter extends RecyclerView.Adapter<CountryAdapter.ViewHold
         CountryInfo covidCountry = covidCountries.get(position);
         holder.tvTotalCases.setText(Integer.toString(covidCountry.getmCases()));
         holder.tvCountryName.setText(covidCountry.getmCovidCountry());
-
-        // Glide
         Glide.with(context)
                 .load(covidCountry.getmFlags())
                 .apply(new RequestOptions().override(240, 160))
@@ -56,6 +54,7 @@ public class CountryAdapter extends RecyclerView.Adapter<CountryAdapter.ViewHold
         return covidCountries.size();
     }
 
+    //get info
     public class ViewHolder extends RecyclerView.ViewHolder {
         TextView tvTotalCases, tvCountryName;
         ImageView imgCountryFlag;

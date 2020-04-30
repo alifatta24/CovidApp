@@ -26,6 +26,7 @@ import java.util.Iterator;
 
 public class ChartFragment extends Fragment {
 
+    //varibales
     WebView webView;
     String webHtml1 = "Chartjs-Cases.html";
     String Country = "World";
@@ -42,6 +43,7 @@ public class ChartFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         View v= inflater.inflate(R.layout.chart_layout, container, false);
 
+        //call chart
         webView = (WebView) v.findViewById(R.id.webview1);
         webView.getSettings().setJavaScriptEnabled(true);
         webView.setWebChromeClient(new WebChromeClient());
@@ -54,6 +56,7 @@ public class ChartFragment extends Fragment {
         return v;
     }
 
+    //use JSON to show results
     protected void DisplayCovidResults( JSONObject data ) {
         System.out.println(data);
         try {
@@ -76,7 +79,7 @@ public class ChartFragment extends Fragment {
         }
     }
 
-
+    //use API to call info
     public void getCovid19Data(String Country) {
         String urlQuery;
         String CountryQuery;

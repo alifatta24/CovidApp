@@ -23,7 +23,7 @@
         android:textStyle="bold" />
 
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/rvCovidCountry"
+        android:id="@+id/CountryList"
         android:layout_width="396dp"
         android:layout_height="486dp"
         tools:listitem="@layout/country_layout" />

@@ -8,6 +8,7 @@ public class CountryInfo implements Parcelable {
     String mCovidCountry, mTodayCases, mDeaths, mTodayDeaths, mRecovered, mActive, mCritical, mFlags;
     int mCases;
 
+    //all usable information
     public CountryInfo(String mCovidCountry, int mCases, String mTodayCases, String mDeaths, String mTodayDeaths, String mRecovered, String mActive, String mCritical, String mFlags) {
         this.mCovidCountry = mCovidCountry;
         this.mCases = mCases;
@@ -36,18 +37,13 @@ public class CountryInfo implements Parcelable {
         return mDeaths;
     }
 
-
-
     public String getmActive() {
         return mActive;
     }
 
-
-
     public String getmFlags() {
         return mFlags;
     }
-
 
     @Override
     public int describeContents() {
