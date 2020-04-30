@@ -21,6 +21,7 @@ public class CountryInfo implements Parcelable {
         this.mFlags = mFlags;
     }
 
+    //create strings for info
     public String getmCovidCountry() {
         return mCovidCountry;
     }
@@ -50,6 +51,7 @@ public class CountryInfo implements Parcelable {
         return 0;
     }
 
+    //fill strings
     @Override
     public void writeToParcel(Parcel dest, int flags) {
         dest.writeString(this.mCovidCountry);
@@ -60,6 +62,7 @@ public class CountryInfo implements Parcelable {
         dest.writeString(this.mFlags);
     }
 
+    //read string
     protected CountryInfo(Parcel in) {
         this.mCovidCountry = in.readString();
         this.mCases = in.readInt();

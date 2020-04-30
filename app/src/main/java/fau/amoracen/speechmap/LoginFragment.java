@@ -19,7 +19,6 @@ import com.facebook.login.LoginResult;
 import com.facebook.login.widget.LoginButton;
 
 
-
 public class LoginFragment extends Fragment {
     private CallbackManager callbackManager;
     private TextView textView;
@@ -28,7 +27,8 @@ public class LoginFragment extends Fragment {
     private ProfileTracker profileTracker;
 
     private FacebookCallback<LoginResult> callback = new FacebookCallback<LoginResult>() {
-       //get premissison to log into facebook
+
+        //get permission to log into facebook
         @Override
         public void onSuccess(LoginResult loginResult) {
             AccessToken accessToken = loginResult.getAccessToken();
@@ -46,7 +46,6 @@ public class LoginFragment extends Fragment {
 
     public LoginFragment() {
     }
-
 
     //called first, get access token
     @Override

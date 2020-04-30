@@ -1,39 +1,32 @@
 package fau.amoracen.speechmap;
 
 import android.os.Bundle;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.webkit.WebChromeClient;
 import android.webkit.WebView;
-
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
-
 import com.android.volley.Request;
 import com.android.volley.RequestQueue;
 import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.JsonObjectRequest;
 import com.android.volley.toolbox.Volley;
-
 import org.json.JSONException;
 import org.json.JSONObject;
-
 import java.util.ArrayList;
 import java.util.Iterator;
 
 public class ChartFragment extends Fragment {
 
-    //varibales
+    //variables
     WebView webView;
     String webHtml1 = "Chartjs-Cases.html";
     String Country = "World";
     ArrayList<String> datadate = new ArrayList<String>();
     ArrayList<String> datanum = new ArrayList<String>();
-
-
 
     public ChartFragment() {
 

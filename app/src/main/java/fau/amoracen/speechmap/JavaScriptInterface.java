@@ -3,8 +3,6 @@ import android.content.Context;
 import android.webkit.JavascriptInterface;
 import android.widget.Toast;
 
-import java.util.ArrayList;
-
 public class JavaScriptInterface {
     Context mContext;
 

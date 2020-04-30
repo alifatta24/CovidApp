@@ -54,11 +54,7 @@ public class StatsFragment extends Fragment {
         CountryAdapter = new CountryAdapter(covidCountries, getActivity());
         CountryList.setAdapter(CountryAdapter);
 
-        ItemClick.addTo(CountryList).setOnItemClickListener(new ItemClick.OnItemClickListener() {
-            @Override
-            public void onItemClicked(RecyclerView recyclerView, int position, View v) {
-            }
-        });
+
     }
 
     //call covid API

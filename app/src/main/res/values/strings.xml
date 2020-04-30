@@ -17,16 +17,16 @@
 
 
 
-    <string name="newnew">  Although we do not know officially how to Coronavirus began we do know that
-    the first case was in Wuhan China in later December. The first death of this virus was on January 11th.
-    Less than a month later the virus was spreading worldwide. With confirmed cases in countries such as the United
-    States, Japan and more, the World Health Organization declared this virus a Pandemic. Countries are now limiting both
-    travel and gatherings to prevent the spread of this virus. \n
+    <string name="newnew">  Although we do not know officially know how the Coronavirus began, we do know that
+    the first case was in Wuhan, China in late December. The first death of this virus was on January 11th 2019.
+    Less than a month later the virus began spreading worldwide. With confirmed cases in countries such as the United
+    States, Japan, and more, the World Health Organization declared this virus a Pandemic. Countries are now limiting both
+    travel and large gatherings to prevent the spread of this virus. \n
 
     </string>
 
-    <string name="newhelp"> \n Some of the signs of Covid 19 include, Fever, Cough, difficulty breathing,
-        chills, sore throat, and muscle pain. \n Since there is not a cure for this virus yet one should
+    <string name="newhelp"> \n Some of the signs of Covid-19 include, Fever, Cough, difficulty breathing,
+        chills, sore throat, and muscle pain. \n Since there is not a cure for this virus yet, one should
     be very cautious when interacting with others. Some ways to prevent the spread of this virus is to
          keep a safe distance from others, keep your hands clean, cover your face and most importantly try to
         stay home as much as possible. \n
@@ -41,9 +41,9 @@
 
 
     <string name="newnews">  It has been more than two months since the first case of the virus was found on US soil. Since then
-        there has been major change occuring in the United States. For instance, there have been millions of people losing their job.
+        there has been major change occurring in the United States. For instance, there have been millions of people losing their job.
         As a result there have been over 20 million people who have filed for unemployment. One reason for why there are
-        so many unemployed people is because since people are not buying and the econmy has been decreasing, companies can not
+        so many unemployed people is because people are not buying as much as before and the economy has been suffering, so companies can not
         afford to keep as many employees as before. \n\n
         In the most recent update, President Donald Trump is allowing states to slowly reopen. The main reason for this
         decision is because of how negatively impacted our economy has been since the start of Covid-19.
@@ -61,16 +61,6 @@
 
     <string
         name="messageWithLink6"><a href="https://www.usnews.com/topics/subjects/coronavirus">US News</a></string>
-
-
-
-
-
-
-
-
-
-
 
     <string name="facebook_app_id">3260321547525622</string>
     <string name="fb_login_protocol_scheme">fb3260321547525622</string>
