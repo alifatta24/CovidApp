@@ -39,6 +39,39 @@
     <string
         name="messageWithLink2"><a href="https://www.cdc.gov/coronavirus/2019-ncov/symptoms-testing/symptoms.html">Centers for Disease Control and Prevention</a></string>
 
+
+    <string name="newnews">  It has been more than two months since the first case of the virus was found on US soil. Since then
+        there has been major change occuring in the United States. For instance, there have been millions of people losing their job.
+        As a result there have been over 20 million people who have filed for unemployment. One reason for why there are
+        so many unemployed people is because since people are not buying and the econmy has been decreasing, companies can not
+        afford to keep as many employees as before. \n\n
+        In the most recent update, President Donald Trump is allowing states to slowly reopen. The main reason for this
+        decision is because of how negatively impacted our economy has been since the start of Covid-19.
+        \n\nMore information about Covid-19 is found everyday, so visit the sites below to get the most up to date information.
+    </string>
+
+    <string
+        name="messageWithLink3"><a href="https://www.cnn.com/world/live-news/coronavirus-pandemic-04-30-20-intl/index.html">CNN News</a></string>
+
+    <string
+        name="messageWithLink4"><a href="https://www.bbc.com/news/coronavirus">BBC News</a></string>
+
+    <string
+        name="messageWithLink5"><a href="https://www.nbcnews.com/health/coronavirus">NBC News</a></string>
+
+    <string
+        name="messageWithLink6"><a href="https://www.usnews.com/topics/subjects/coronavirus">US News</a></string>
+
+
+
+
+
+
+
+
+
+
+
     <string name="facebook_app_id">3260321547525622</string>
     <string name="fb_login_protocol_scheme">fb3260321547525622</string>
 

@@ -18,7 +18,6 @@ import java.util.ArrayList;
 public class GoogleMapFragment extends Fragment  {
 
     TextView textView;
-    TextView textView2;
 
     public GoogleMapFragment() {
 
@@ -33,6 +32,22 @@ public class GoogleMapFragment extends Fragment  {
 
         textView = v.findViewById(R.id.textViewLink2);
         textView.setMovementMethod(LinkMovementMethod.getInstance());
+
+        textView = v.findViewById(R.id.textViewLink3);
+        textView.setMovementMethod(LinkMovementMethod.getInstance());
+
+        textView = v.findViewById(R.id.textViewLink4);
+        textView.setMovementMethod(LinkMovementMethod.getInstance());
+
+        textView = v.findViewById(R.id.textViewLink5);
+        textView.setMovementMethod(LinkMovementMethod.getInstance());
+
+        textView = v.findViewById(R.id.textViewLink6);
+        textView.setMovementMethod(LinkMovementMethod.getInstance());
+
+
+
+
         return v;
     }
 
